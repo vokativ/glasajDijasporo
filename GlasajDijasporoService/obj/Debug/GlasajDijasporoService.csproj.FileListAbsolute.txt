@@ -184,3 +184,4 @@ C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.csproj.CopyComplete
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.dll
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.pdb
+C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.csprojAssemblyReference.cache
