@@ -7,6 +7,8 @@ var submitButton = document.getElementById("submitApplication");
 var signatureField = document.getElementById("Signature");
 var embassyEmail = document.getElementById("embassyEmail");
 var votingLocation = document.getElementById("votingLocation");
+//var mailtoLinkString = new StringBuilder("<a href="mailto: ");
+var mailtoLink = document.getElementById("mailtoLink");
 
 function resizeCanvas() {
     var ratio = Math.max(window.devicePixelRatio || 1, 1);
@@ -30,5 +32,7 @@ submitButton.addEventListener("click", function (event) {
 });
 
 function votingLocationSelected() {
-    embassyEmail.innerHTML = votingLocation.value.split('|')[1];
+    embassyEmail.innerHTML = votingLocation.value.split('|')[1];//will add the mailto link generation here
+    //mailtoLink.appendFormat("{0} ? subject = Zahtev % 20za % 20glasanje % 20u % 20inostranstvu & body=Po % C5 % A1tovana % 2Fi % 2CPodnosim % 20zahtev % 20za % 20glasanje % 20u % 20inostranstvu % 20za % 20predstoje % C4 % 87e % 20izbore.Sa % 20po % C5 % A1tovanjem", embassyEmail);
+    //mailtoLink = mailtoLinkString.ToString();
 }
