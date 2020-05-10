@@ -180,7 +180,6 @@ C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\bin\Syste
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\bin\System.Web.WebPages.Deployment.xml
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\bin\System.Web.WebPages.Razor.xml
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\bin\Antlr3.Runtime.pdb
-C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.csprojAssemblyReference.cache
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.csproj.CoreCompileInputs.cache
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.csproj.CopyComplete
 C:\Users\neman\Documents\GitHub\glasajDijasporo\GlasajDijasporoService\obj\Debug\GlasajDijasporoService.dll
