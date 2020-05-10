@@ -21,7 +21,7 @@
 
 ## Одговори на очекивана питања
 ### Зашто не можемо да куцамо ћирилицом?
-И мене ово баца у бедак, али нисам успео да натерам код да подржава ћирилицу. Нисам програмер тако да не знам како да наместим iText да подржи оба писма. Ако знате, поднесите измену кода [овде.](https://github.com/vokativ/glasajDijasporo/blob/master/GlasajDijasporoService/Controllers/ServiceController.cs) Потражите _content.SetFontAndSize(BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, false), 12f)_
+И мене ово баца у бедак, али нисам успео да натерам код да подржава ћирилицу. Нисам програмер тако да не знам како да наместим iText да подржи оба писма. Ако знате, поднесите измену кода [овде.](https://github.com/vokativ/glasajDijasporo/blob/master/GlasajDijasporoService/Controllers/ServiceController.cs#L45)
 
 ### Зашто ово радите?
 Зато што нас смара да не можемо ништа да средимо пошто наша дипломатија нема никакве ресурсе. Људи по амбасада и конзулатима су супер, али немају процесе ни алате. Овако желимо да помогнемо
