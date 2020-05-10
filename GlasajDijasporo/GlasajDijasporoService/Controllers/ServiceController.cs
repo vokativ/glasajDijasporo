@@ -84,13 +84,20 @@ namespace GlasajDijasporoService.Controllers
                     yCord -= 38;
                     content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.ForeignCountryAddress, xCord, yCord, 0);
 
-                    yCord -= 48;
-                    if (votingRequest.VotingLocation != null)
+                    yCord -= 48;//Check if there is a preference for the voting place. If not, go with the default embassy/consulate
+                    if (votingRequest.PrefferedVotingLocation != null)
                     {
                         content.SetFontAndSize(BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, false), 12f);
-                        content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.VotingLocation.Split('|').FirstOrDefault(), xCord, yCord, 0);
+                        content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.PrefferedVotingLocation, xCord, yCord, 0);
                     }
-
+                    else
+                    {
+                        if (votingRequest.VotingLocation != null)
+                        {
+                            content.SetFontAndSize(BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, false), 12f);
+                            content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.VotingLocation.Split('|').FirstOrDefault(), xCord, yCord, 0);
+                        }
+                    }
                     content.SetFontAndSize(BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, false), 14f);
                     yCord -= 40;
                     content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.CurrentLocation, xCord - 163, yCord, 0);

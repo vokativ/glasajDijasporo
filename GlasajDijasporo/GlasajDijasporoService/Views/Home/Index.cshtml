@@ -27,7 +27,7 @@
                 </br>
             </li>
             <li>
-                <label class="stepStyle">3. Izaberi mesto glasanja:</label>
+                <label class="stepStyle">3. Državu (i ako ima grad) gde prebivaš:</label>
                 <br />
             <li>
                 <select name="VotingLocation" id="votingLocation" class="field-select" onchange="votingLocationSelected()">
@@ -156,7 +156,7 @@
                     <option value="Ambasada Srbije na Kubi|ambsrbhav@enet.cu">Dominikanska Republika (pokriva Ambasada Srbije na Kubi)</option>
                     <option value="Ambasada Srbije u Brazilu|embaixadaservia@terra.com.br">Ekvador (pokriva Ambasada Srbije u Brazilu)</option>
                     <option value="Ambasada Srbije u Angoli|serbiaemb@netcabo.co.ao">Ekvatorijalna Gvineja (pokriva Ambasada Srbije u Angoli)</option>
-                    <option value="Ambasada Srbije u Keniji|nairobi@embassyofserbia.or.ke">Eritreja (pokriva Ambasada Srbije u Keniji)</option> 
+                    <option value="Ambasada Srbije u Keniji|nairobi@embassyofserbia.or.ke">Eritreja (pokriva Ambasada Srbije u Keniji)</option>
                     <option value="Ambasada Srbije u Finskoj|serbia@kolumbus.fi">Estonija (pokriva Ambasada Srbije u Finskoj)</option>
                     <option value="Ambasada Srbije u Južnoafričkoj Republici|info@srbembassy.org.za">Zambija (pokriva Ambasada Srbije u Južnoafričkoj Republici)</option>
                     <option value="Ambasada Srbije u Južnoafričkoj Republici|info@srbembassy.org.za">Zelenortska ostrva (pokriva Ambasada Srbije u Južnoafričkoj Republici)</option>
@@ -243,15 +243,7 @@
                     <option value="Ambasada Srbije u Argentini|consulado@serbembaires.com.ar">Čile (pokriva Ambasada Srbije u Argentini)</option>
                     <option value="Ambasada Srbije u Etiopiji|serbambadis@yahoo.com">Džibuti (pokriva Ambasada Srbije u Etiopiji)</option>
                     <option value="Ambasada Srbije u Indiji|embassyofserbiadelhi@hotmail.com">Šri Lanka (pokriva Ambasada Srbije u Indiji)</option>
-                 </select>
-            </li>
-            </br>
-            <li>
-                <label class="stepStyle">Email sa fotografisanim pasošem i formularom iz sledećeg koraka treba da pošalješ na </a> <span class="required"><label id="embassyEmail" />Lokacija glasanja nije izabrana</label></span></label>
-                <br />
-            <li>
-                </br>
-            </li>
+                </select>
             <li>
                 <label class="stepStyle">4. Popuni podatke za upis u birački spisak u inostranstvu i pritisni dugme "Popuni formular".</label><br />
             </li>
@@ -504,6 +496,11 @@
                 <input class="field-long" type="email" name="Email" />
             </li>
             <li>
+                <label>Mesto gde želiš da glasaš (ako ostaviš prazno podrazumeva se ambasada koja pokriva tvoje boravište) <label id="defaultVotingLocation"</label></label>
+                <input class="field-long" type="text" name="PrefferedVotingLocation" onchange="prefferedVotingLocationSelected()">
+                <br />
+            </li>
+            <li>
                 <div id="signature-pad" class="m-signature-pad">
                     <div class="m-signature-pad--body">
                         <canvas id="signatureCanvas"></canvas>
@@ -519,6 +516,14 @@
                 <input id="submitApplication" type="submit" value="Popuni formular" />
                 <br />
                 <br />
+            </li>
+            </li>
+            </br>
+            <li>
+                <label class="stepStyle">5. Email sa fotografisanim pasošem i popunjenim formularom treba da pošalješ na <span class="required"><label id="embassyEmail" />Lokacija glasanja nije izabrana</label></span></label>
+                <br />
+            <li>
+                </br>
             </li>
             <li>
                 </br>
