@@ -44,3 +44,7 @@ function votingLocationSelected() {
 function prefferedVotingLocationSelected() {
 
 }
+
+function jmbgInputted() {//Source https://github.com/dijanal/JMBG
+
+}
