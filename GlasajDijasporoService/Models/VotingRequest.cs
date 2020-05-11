@@ -26,5 +26,8 @@ namespace GlasajDijasporoService.Model
         public string Email { get; set; }
         public string Signature { get; set; }
         public string MailtoLink { get; set; }
+
+        //[JsonProperty("g-recaptcha-response")]
+        public string RecaptchaResponse { get; set; }
     }
 }

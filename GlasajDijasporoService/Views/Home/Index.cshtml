@@ -254,7 +254,7 @@
             </li>
             <li>
                 <label>Datum rođenja <span class="required">*</span></label>
-                <input class="field-long" type="date" name="BirthDate" value="2002-05-11" max="2003-01-01"/>
+                <input class="field-long" type="date" name="BirthDate" value="2002-05-11" max="2003-01-01" />
             </li>
             <li>
                 <label>Mesto rođenja (latinicom)<span class="required">*</span></label>
@@ -273,7 +273,7 @@
             </li>
             <li>
                 <label>JMBG <span class="required">*</span></label>
-                <input class="field-long" type="number" name="PersonalId" oninput="jmbgInputted()"/>
+                <input class="field-long" type="number" name="PersonalId" oninput="jmbgInputted()" />
             </li>
             <li>
                 <label>Broj pasoša <span class="required">*</span></label>
@@ -524,7 +524,10 @@
             </br>
             <li>
                 <label class="stepStyle">5. Email sa fotografisanim pasošem i popunjenim formularom treba da pošalješ na <span class="required"><label id="embassyEmail" />Lokacija glasanja nije izabrana</label></span></label>
+                <label>Ili pritisni link dole da automatski napraviš mejl i samo da dodas formular i pasoš</label>
             <li>
+                </br>
+                <a id="mailtoLink" href="">Ovde će se pojaviti link za slanje mejla</a>
             </li>
             <li>
                 </br>
@@ -555,5 +558,14 @@
 
 <script src="~/Scripts/signature_pad.min.js"></script>
 <script src="~/Scripts/app.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6Lcgi_UUAAAAAOOiSprZqKYEWSRMRI_eMTlkWj_Q"></script>
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6Lcgi_UUAAAAAOOiSprZqKYEWSRMRI_eMTlkWj_Q', { action: 'homepage' }).then(function (token) {
+            //console.log(token);
+    });
+});
+</script>
 
 

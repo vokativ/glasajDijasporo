@@ -54,8 +54,8 @@ function generateMailtoLink() {
     if (args.length > 0) {
         url += '?' + args.join('&');
     }
-    mailtoLink.innerHTML = url;
-    //document.getElementById("mailtoLink").setAttribute("href", url);
-    //console.debug(url);
+    mailtoLink.innerHTML = "Pritisnite ovde da pošaljete mejl na: " + votingLocation.value.split('|')[0];
+    document.getElementById("mailtoLink").setAttribute("href", url);
+    console.debug(url);
     //return url;
 }
