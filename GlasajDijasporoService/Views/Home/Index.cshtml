@@ -26,7 +26,7 @@
                 </br>
             </li>
             <li>
-                <label class="stepStyle">3. Izaberi državu (a ako ima i grad) gde prebivaš:</label>
+                <label class="stepStyle">3. Izaberi državu (a ako ima kao opcija, i grad) koja ti je najbliža za određivanje biračkog mesta:</label>
                 <br />
             <li>
                 <select name="VotingLocation" id="votingLocation" class="field-select" onchange="votingLocationSelected()">
@@ -253,7 +253,7 @@
                 <input class="field-long" type="text" name="FirstLastName" />
             </li>
             <li>
-                <label>Datum rođenja <span class="required">*</span></label>
+                <label>Datum rođenja (izaberite prvo godinu)<span class="required">*</span></label>
                 <input class="field-long" type="date" name="BirthDate" value="2002-05-11" max="2003-01-01" />
             </li>
             <li>
@@ -288,7 +288,7 @@
                 <input class="field-long" type="text" name="TemporaryAddress" />
             </li>
             <li>
-                <label>Naziv strane države u kojo živiš (latinicom)<span class="required">*</span></label>
+                <label>Naziv strane države u kojoj živiš (latinicom) - za davanje adrese ambasadi<span class="required">*</span></label>
                 <select name="ForeignCountryName" class="field-select">
                     <option value="">Izaberi stranu državu...</option>
                     <option value="Afganistan">Afganistan</option>
@@ -563,8 +563,20 @@
 <script>
     grecaptcha.ready(function () {
         grecaptcha.execute('6Lcgi_UUAAAAAOOiSprZqKYEWSRMRI_eMTlkWj_Q', { action: 'homepage' }).then(function (token) {
+            //console.log('Token is: ' + token);
+            var verificationURL = ('https://www.google.com/recaptcha/api/siteverify?&secret=6Lcgi_UUAAAAAM4v99XyiaAS9EJRHG0QX3HiP3OT&response=' + token);
+            console.log(verificationURL); //the verification URL works, but I can't get the function below to call it...
+            /*fetch(verificationURL, {
+                //method: POST, //POST, *GET PUT DELETE * is default
+                mode: 'no-cors', //*cors, no-cors, same-origin
+                //cache: no-cache, //*default, no-cache, reload, force-cache, only-if-cached
+                //credentials: same - origin, //include, *same-origin, omit
+            })
+                .then(data => { return data.json() })
+                .then(res => { console.log(res) });
+            */
+        });
     });
-});
 </script>
 
 
