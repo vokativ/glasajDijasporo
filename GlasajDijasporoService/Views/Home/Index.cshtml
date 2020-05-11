@@ -496,11 +496,13 @@
                 <label>Email <span class="required">*</span></label>
                 <input class="field-long" type="email" name="Email" />
             </li>
+            <br />
             <li>
-                <label>Mesto gde želiš da glasaš (latinica). Ako ostaviš prazno podrazumeva se ambasada koja pokriva tvoje boravište. <label id="defaultVotingLocation"</label></label>
+                <label><span class="required">Mesto gde želiš da glasaš (latinica).</span><br /> Ako ostaviš prazno podrazumeva se ambasada koja pokriva tvoje boravište: <br /><label id="embassyName" />lokacija glasanja nije izabrana</label></label>
                 <input class="field-long" type="text" name="PrefferedVotingLocation" onchange="prefferedVotingLocationSelected()">
                 <br />
             </li>
+            <br />
             <li>
                 <div id="signature-pad" class="m-signature-pad">
                     <div class="m-signature-pad--body">
@@ -522,7 +524,6 @@
             </br>
             <li>
                 <label class="stepStyle">5. Email sa fotografisanim pasošem i popunjenim formularom treba da pošalješ na <span class="required"><label id="embassyEmail" />Lokacija glasanja nije izabrana</label></span></label>
-                <br />
             <li>
                 </br>
             </li>

@@ -7,10 +7,9 @@ var submitButton = document.getElementById("submitApplication");
 var signatureField = document.getElementById("Signature");
 var embassyEmail = document.getElementById("embassyEmail");
 var votingLocation = document.getElementById("votingLocation");
-var prefferedVotingLocation = document.getElementById("PrefferedVotingLocation");
-var defaultVotingLocation = document.getElementById("DefaultVotingLocation");
-
-var mailtoLink = String;
+var prefferedVotingLocation = document.getElementById("prefferedVotingLocation");
+var embassyName = document.getElementById("embassyName");
+var mailtoLink = document.getElementById("mailtoLink");;
 
 function resizeCanvas() {
     var ratio = Math.max(window.devicePixelRatio || 1, 1);
@@ -35,16 +34,16 @@ submitButton.addEventListener("click", function (event) {
 
 function votingLocationSelected() {
     embassyEmail.innerHTML = votingLocation.value.split('|')[1];
-    defaultVotingLocation.innerHTML = votingLocation.value.split('|')[0];
-    var mailtoLinkString = new StringBuilder("<a href=\"mailto: ");//will add the mailto link generation here
-    mailtoLinkString.appendFormat("{0} ? subject = Zahtev % 20za % 20glasanje % 20u % 20inostranstvu & body=Po % C5 % A1tovana % 2Fi % 2CPodnosim % 20zahtev % 20za % 20glasanje % 20u % 20inostranstvu % 20za % 20predstoje % C4 % 87e % 20izbore.Sa % 20po % C5 % A1tovanjem", embassyEmail);
-    mailtoLink = mailtoLinkString.ToString();
+    embassyName.innerHTML = votingLocation.value.split('|')[0];
+    //mailtoLink.innerHTML = `<a href=\\"mailto: ${votingLocation.value.split('|')[1]}? subject = Zahtev % 20za % 20glasanje % 20u % 20inostranstvu & body=Po % C5 % A1tovana % 2Fi % 2CPodnosim % 20zahtev % 20za % 20glasanje % 20u % 20inostranstvu % 20za % 20predstoje % C4 % 87e % 20izbore.Sa % 20po % C5 % A1tovanjem`;//will add the mailto link generation here
+
+    mailtoLink.innerHTML = votingLocation.value.split('|')[0] + 'AAAAAAAAAAA';
 }
 
 function prefferedVotingLocationSelected() {
 
 }
 
-function jmbgInputted() {//Source https://github.com/dijanal/JMBG
+function jmbgInputted() {//Source, but not used yet github.com/dijanal/JMBG
 
 }

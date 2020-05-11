@@ -20,7 +20,7 @@ namespace GlasajDijasporoService.Model
         public string ForeignCountryAddress { get; set; }
         public string VotingLocation { get; set; }
         public string PrefferedVotingLocation { get; set; }
-        public string DefaultVotingLocation { get; set; }
+        public string EmbassyName { get; set; }
         public string CurrentLocation { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
