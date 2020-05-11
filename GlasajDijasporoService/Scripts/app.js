@@ -35,9 +35,7 @@ submitButton.addEventListener("click", function (event) {
 function votingLocationSelected() {
     embassyEmail.innerHTML = votingLocation.value.split('|')[1];
     embassyName.innerHTML = votingLocation.value.split('|')[0];
-    //mailtoLink.innerHTML = `<a href=\\"mailto: ${votingLocation.value.split('|')[1]}? subject = Zahtev % 20za % 20glasanje % 20u % 20inostranstvu & body=Po % C5 % A1tovana % 2Fi % 2CPodnosim % 20zahtev % 20za % 20glasanje % 20u % 20inostranstvu % 20za % 20predstoje % C4 % 87e % 20izbore.Sa % 20po % C5 % A1tovanjem`;//will add the mailto link generation here
-
-    mailtoLink.innerHTML = votingLocation.value.split('|')[0] + 'AAAAAAAAAAA';
+    generateMailtoLink();
 }
 
 function prefferedVotingLocationSelected() {
@@ -46,4 +44,18 @@ function prefferedVotingLocationSelected() {
 
 function jmbgInputted() {//Source, but not used yet github.com/dijanal/JMBG
 
+}
+
+function generateMailtoLink() {
+    var args = [];
+    args.push('subject=' + encodeURIComponent('Registracija za glasanje iz inostranstva'));
+    args.push('body=' + encodeURIComponent('Poštovani/a, Prilažem moje podatke za registraciju za glasanje iz inostranstva. Sa poštovanjem'));
+    var url = 'mailto:' + encodeURIComponent(votingLocation.value.split('|')[1]);
+    if (args.length > 0) {
+        url += '?' + args.join('&');
+    }
+    mailtoLink.innerHTML = url;
+    //document.getElementById("mailtoLink").setAttribute("href", url);
+    //console.debug(url);
+    //return url;
 }
