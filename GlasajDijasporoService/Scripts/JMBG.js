@@ -1,4 +1,4 @@
-
+//Ово засада не користимо
 
 
 
@@ -21,14 +21,14 @@
   <link crossorigin="anonymous" media="all" integrity="sha512-FG+rXqMOivrAjdEQE7tO4BwM1poGmg70hJFTlNSxjX87grtrZ6UnPR8NkzwUHlQEGviu9XuRYeO8zH9YwvZhdg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-146fab5ea30e8afac08dd11013bb4ee0.css" />
   <link crossorigin="anonymous" media="all" integrity="sha512-4wqeyhMYSQckpc21w1+M0u9Xs9HT8ZyNP0+4uJMB8I5jL8pu7ypO+yBXXSpnzHdraeA9D9ZRqPu5jlNFnCPGQQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-e30a9eca1318490724a5cdb5c35f8cd2.css" />
     <link crossorigin="anonymous" media="all" integrity="sha512-8LkbsZMtIzHnYxbSKVW0IeFFJwvb3vgP78G/Q6GrIESfEf/4+2k55PUHcDWZEx4QVNNdsH3ce16qqUBtK4sxzg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-f0b91bb1932d2331e76316d22955b421.css" />
-    
-    
-    
-    
+
+
+
+
 
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>JMBG/JMBG.js at master · dijanal/JMBG · GitHub</title>
     <meta name="description" content="Contribute to dijanal/JMBG development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
@@ -39,8 +39,8 @@
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/33780023?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="dijanal/JMBG" /><meta property="og:url" content="https://github.com/dijanal/JMBG" /><meta property="og:description" content="Contribute to dijanal/JMBG development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  
-  
+
+
 
   <meta name="request-id" content="DFC7:60FF:944252:EF5811:5EB827B0" data-pjax-transient="true"/><meta name="html-safe-nonce" content="53fc50509769eba64426e2a6b77916aa320f42be" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9kaWphbmFsL0pNQkcvdHJlZS9tYXN0ZXIvanMiLCJyZXF1ZXN0X2lkIjoiREZDNzo2MEZGOjk0NDI1MjpFRjU4MTE6NUVCODI3QjAiLCJ2aXNpdG9yX2lkIjoiMTA0NjUyODIyNTYwNjkwMjQwNCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="6bc74384bdef2b04bf35259a6ed8b5faf47b5bcd1d75cf0d1ec6e9402e8b62ae" data-pjax-transient="true"/>
 
@@ -48,7 +48,7 @@
 
   <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
 
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -69,7 +69,7 @@
 
 
 
-  
+
 
       <meta name="hostname" content="github.com">
     <meta name="user-login" content="">
@@ -80,7 +80,7 @@
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS">
 
   <meta http-equiv="x-pjax-version" content="f9a41a37f60f481058630830a0873f82">
-  
+
 
       <link href="https://github.com/dijanal/JMBG/commits/master.atom" rel="alternate" title="Recent Commits to JMBG:master" type="application/atom+xml">
 
@@ -110,7 +110,7 @@
   </head>
 
   <body class="logged-out env-production page-responsive page-blob">
-    
+
 
     <div class="position-relative js-header-wrapper ">
       <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
@@ -118,8 +118,8 @@
         <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
       </span>
 
-      
-      
+
+
 
 
 
@@ -131,7 +131,7 @@
         </a>
 
           <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
-            
+
                 <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
     <a class="Header-link" href="/dijanal">dijanal</a>
     /
@@ -295,9 +295,9 @@
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
             <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
 <ul class="d-none js-jump-to-suggestions-template-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -338,7 +338,7 @@
 </ul>
 
 <ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -370,7 +370,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -445,7 +445,7 @@
     <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
       <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
     </button>
-    
+
       <div class="js-flash-template-message"></div>
 
   </div>
@@ -454,7 +454,7 @@
 </div>
 
 
-      
+
 
   <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
 
@@ -464,9 +464,9 @@
   <div class="application-main " data-commit-hovercards-enabled>
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main  >
-      
 
-  
+
+
 
 
 
@@ -494,7 +494,7 @@
   <strong itemprop="name" class="mr-2 flex-self-stretch">
     <a data-pjax="#js-repo-pjax-container" href="/dijanal/JMBG">JMBG</a>
   </strong>
-  
+
 </h1>
 
 
@@ -506,7 +506,7 @@
 
 
   <li>
-    
+
   <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/dijanal/JMBG/blob/master/js/JMBG.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e84ac814c2ab07660a22f9532cbac8d473d7ed88b38e58541bcd20cee2d57b81" href="/login?return_to=%2Fdijanal%2FJMBG">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
     Watch
@@ -660,7 +660,7 @@
 
   </div>
 
-  
+
 
   <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
 
@@ -668,10 +668,10 @@
 <div class="container-lg clearfix new-discussion-timeline  p-responsive">
   <div class="repository-content ">
 
-    
-    
 
-  
+
+
+
 
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dijanal/JMBG/blob/72f42e80a559b814e5750e1e07912ce4967e7d4f/js/JMBG.js">Permalink</a>
@@ -698,7 +698,7 @@
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
       <span class="d-flex flex-justify-between width-full width-md-auto">
-        
+
 <details class="details-reset details-overlay branch-select-menu " id="branch-select-menu">
   <summary class="btn css-truncate btn-sm"
            data-hotkey="w"
@@ -803,7 +803,7 @@
 
 
 
-    
+
   <div class="Box Box--condensed d-flex flex-column flex-shrink-0 mb-3">
       <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
         <span class="pr-md-4 f6">
@@ -849,7 +849,7 @@
 
     <div class="Box mt-3 position-relative
       ">
-      
+
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
@@ -890,10 +890,10 @@
 
 
 
-      
+
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript ">
-      
+
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
@@ -2267,7 +2267,7 @@
 
     </div>
 
-  
+
 
   <details class="details-reset details-overlay details-overlay-dark">
     <summary data-hotkey="l" aria-label="Jump to line"></summary>
@@ -2299,11 +2299,11 @@
 
     </main>
   </div>
-  
+
 
   </div>
 
-        
+
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
@@ -2348,11 +2348,11 @@
     <script crossorigin="anonymous" integrity="sha512-Qb7XHcWIafGt8U6FsJrxJqGCgszwjKK1zXv1+fAjIz0HDaYppswlGLxEInNMN2dlMBAZnZNSZL8wAvvhKxYx3A==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-41bed71d.js"></script>
     <script crossorigin="anonymous" async="async" integrity="sha512-327XCyOytNBlvvFRes7NYmY/gSME67CreRw+pR2DhNKBfEb2Sv0pe/XkZUSqYYlgGdDnaGIKUAb4oRZBLdKBfw==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-df6ed70b.js"></script>
     <script crossorigin="anonymous" async="async" integrity="sha512-ydpfMiSmAuxmje053yiEMEVJ+oD+DBLHr740PtlOKMor6T2fnSO4xOOQS2sr2ERXiPPsCblEM8ReOBe4su+HKA==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-c9da5f32.js"></script>
-    
+
     <script crossorigin="anonymous" async="async" integrity="sha512-bD/wpJ6WG5/kR3NK9bxVI2CCS1gEZBVtULmMrO7SD51OV163C4TQy5QHrPSOCnLGm/b/oaQoEqequVTFhSd/kA==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-6c3ff0a4.js"></script>
-    
-    
-    
+
+
+
   <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
     >
     <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
@@ -2379,4 +2379,3 @@
 
   </body>
 </html>
-
