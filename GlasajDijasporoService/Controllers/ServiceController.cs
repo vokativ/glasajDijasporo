@@ -45,7 +45,7 @@ namespace GlasajDijasporoService.Controllers
                     var content = stamper.GetOverContent(1);
 
                     content.BeginText();
-                    content.SetFontAndSize(BaseFont.CreateFont(robotoFont, BaseFont.CP1250, BaseFont.EMBEDDED), 12f); //reduced font size to fit birth place and date.
+                    content.SetFontAndSize(BaseFont.CreateFont(robotoFont, BaseFont.IDENTITY_H, BaseFont.EMBEDDED), 12f); //reduced font size to fit birth place and date.
                     content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.FirstLastName, xCord, yCord, 0);
 
                     yCord -= 23; //first we will put the birth date, and then the birth place
