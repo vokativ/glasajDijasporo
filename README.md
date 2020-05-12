@@ -20,6 +20,11 @@
 
 
 ## Одговори на очекивана питања
+### Како ово ради а да не скупља податке?
+Сајт просто додаје ваше унете податке ан празан формулар за пријаву за гласање у инострантсву [(овде)](https://github.com/vokativ/glasajDijasporo/blob/master/GlasajDijasporoService/Content/VotingRequestDocument.pdf). **Подаци су код вас, у вашем уређају и нестају чим затворите сајт или када направите попуњен захтев.**
+
+Оригинални приступ је одлична идеја од претходног пројекта који можете наћи [овде](https://github.com/bdjukic/glasajDijasporo).
+
 ### Зашто не можемо да куцамо ћирилицом?
 И мене ово баца у бедак, али нисам успео да натерам код да подржава ћирилицу. Нисам програмер тако да не знам како да наместим iText да подржи оба писма. Ако знате, поднесите измену кода [овде.](https://github.com/vokativ/glasajDijasporo/blob/master/GlasajDijasporoService/Controllers/ServiceController.cs#L45)
 
