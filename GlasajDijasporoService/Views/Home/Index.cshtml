@@ -559,24 +559,3 @@
 <script src="~/Scripts/signature_pad.min.js"></script>
 <script src="~/Scripts/app.js"></script>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6Lcgi_UUAAAAAOOiSprZqKYEWSRMRI_eMTlkWj_Q&hl=sr"></script>
-<script>
-    grecaptcha.ready(function () {
-        grecaptcha.execute('6Lcgi_UUAAAAAOOiSprZqKYEWSRMRI_eMTlkWj_Q', { action: 'homepage' }).then(function (token) {
-            //console.log('Token is: ' + token);
-            var verificationURL = ('https://www.google.com/recaptcha/api/siteverify?&secret=6Lcgi_UUAAAAAM4v99XyiaAS9EJRHG0QX3HiP3OT&response=' + token);
-            console.log(verificationURL); //the verification URL works, but I can't get the function below to call it...
-            /*fetch(verificationURL, {
-                //method: POST, //POST, *GET PUT DELETE * is default
-                mode: 'no-cors', //*cors, no-cors, same-origin
-                //cache: no-cache, //*default, no-cache, reload, force-cache, only-if-cached
-                //credentials: same - origin, //include, *same-origin, omit
-            })
-                .then(data => { return data.json() })
-                .then(res => { console.log(res) });
-            */
-        });
-    });
-</script>
-
-
