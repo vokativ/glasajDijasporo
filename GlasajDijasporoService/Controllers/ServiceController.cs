@@ -29,9 +29,6 @@ namespace GlasajDijasporoService.Controllers
             var response = new HttpResponseMessage(HttpStatusCode.OK);
             var contentFolder = HttpContext.Current.Server.MapPath("~/Content");
             var pdfFileTemplate = contentFolder + @"/VotingRequestDocument.pdf";
-            var fontsFolder = HttpContext.Current.Server.MapPath("~/fonts");
-            var robotoFont = fontsFolder + @"/Roboto-Regular.ttf";
-            iTextSharp.text.FontFactory.Register(robotoFont);
 
             using (var existingFileStream = new FileStream(pdfFileTemplate, FileMode.Open))
             {
@@ -45,7 +42,7 @@ namespace GlasajDijasporoService.Controllers
                     var content = stamper.GetOverContent(1);
 
                     content.BeginText();
-                    content.SetFontAndSize(BaseFont.CreateFont(robotoFont, BaseFont.CP1250, BaseFont.EMBEDDED), 12f); //reduced font size to fit birth place and date.
+                    content.SetFontAndSize(BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, false), 12f); //reduced font size to fit birth place and date. This encoding does not support Cyrillic
                     content.ShowTextAligned(PdfContentByte.ALIGN_LEFT, votingRequest.FirstLastName, xCord, yCord, 0);
 
                     yCord -= 23; //first we will put the birth date, and then the birth place
